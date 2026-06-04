@@ -1,0 +1,112 @@
+*{
+   margin: 0;
+    padding: 0;
+    text-decoration: none;  
+}
+
+body{
+    font-family: "roboto", sans-serif;
+}
+
+.nav-link{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.nav-link:hover {
+  background: #495057;
+  border-radius: 5px;
+}
+
+.navbar-nav .nav-link {
+    color: #ddd;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #0d6efd;
+  }
+.skill-box{
+     width: 100px;
+    height: 95px;
+    border: 1px solid #0d6efd;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(13, 110, 253, 0.1);
+}
+.skill-box:hover{
+    transform:translateY(-5px) scale(1.05);
+}
+
+
+
+
+.project-card{
+    height: 150px;
+    transition: all 0.3s ease;
+}
+.project-card:hover{
+    transform:translateY(-5px) scale(1.05);
+}
+
+.project-overlay {
+    inset: 0;
+    background: rgba(13, 110, 253, 0.7);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.4s ease;
+    text-align: center;
+    border-radius: 7px;
+  }
+  
+
+ .project-card:hover .project-overlay {
+    opacity: 1;
+  }
+
+  
+  
+.main-profile{
+     transition: all 0.3s ease;
+}
+.main-profile:hover{
+    transform:translateY(-5px) scale(1.05); 
+}
+
+.second-pix{
+    transition: all 0.3s ease
+}
+.second-pix:hover{
+    transform:translateY(-5px) scale(1.05);  
+}
+
+
+/* DASHBOARD STYLING */
+.box{
+box-shadow:black ;
+}
+.box p{
+    height: 20px;
+    width: 50px;
+}
+.dash{
+    height: 100vh;
+    width: 20%;
+    background-color: black;
+}
+
+
+
+
